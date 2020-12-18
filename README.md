@@ -3,5 +3,4 @@ Implementacion pizarra virtual IHC
 Link Tutorial:
 Link Demo Video:
 
-Para correrlo nesesitaremos react y varias dependencias como nodeJS, socket-io, aunque varios de estos modulos se instalaran al colocar el comando npm install.
-Para poder correr el servidor localmente usaremos npm start.
+Lo que tienes que hacer para que corra es ejecutar npm start para monatr el server, abrir la caprpeta frontend y modificar donde diga murcielago.pe poner el localhost o la url que tengas, luego ejecutas el comando npm run build dentro de la carpeta fronted, esperas y te generará unas cosas dentro de la carpeta build, copias todo el conetnido a la caprte public de la raiz y listo, el servidor se monta en https en el puerto 5000 por defecto.
